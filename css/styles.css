@@ -38,6 +38,9 @@ img {
 .header .container {
   display: flex;
   align-items: center;
+}
+
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -116,6 +119,8 @@ img {
 
 .section-hero {
   padding-bottom: 200px;
+  padding-top: 200px;
+  background: #2f303a;
 }
 
 .section-hero-title {
@@ -125,11 +130,10 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   padding-left: 252px;
   padding-right: 252px;
   margin-bottom: 30px;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 .button {
   background: #2196f3;
@@ -218,8 +222,8 @@ img {
   margin-bottom: 10px;
 }
 
-.section-team-list-item-job {
-  margin-bottom: 30px;
+.section-team-list-item {
+  padding-bottom: 30px;
 }
 
 .section-services-title,
@@ -349,8 +353,8 @@ img {
   margin: 0 auto;
 }
 
-.portfolio-filter-list-item {
-  margin-bottom: 56px;
+.portfolio-filter-list {
+  margin-bottom: 50px;
 }
 .portfolio-filter-list-item:not(:last-child) {
   margin-right: 8px;
